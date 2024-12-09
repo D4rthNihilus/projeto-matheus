@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Alien";
+    src: url("../fonts/Alien\ Mine\ Italic.otf") format("opentype"), url("../fonts/Alien\ Mine\ Italic.ttf") format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 15px;
+}
+
+header > div#menu-icon, h1, div#search-icon {
+    display: inline-block;
+}
+
+header > h1 {
+    margin-left: 20px;
+    font-family: "Alien", 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1.2em;;
+}
+
+header > div#search-icon {
+    margin-left: 50%;
+}
