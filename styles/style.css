@@ -28,5 +28,9 @@ header > h1 {
 }
 
 header > div#search-icon {
-    margin-left: 50%;
+    margin-left: 49%;
+}
+
+main {
+    margin: 20px;
 }
