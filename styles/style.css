@@ -46,3 +46,7 @@ main > div#title h2 {
     font-size: 1em;
     font-weight: normal;
 }
+
+main > section#introduction > article#infobox > table > tbody > tr > td > img {
+    width: 500px;
+}
