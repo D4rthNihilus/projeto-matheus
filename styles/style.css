@@ -53,6 +53,15 @@ main p {
     text-align: justify;
     text-indent: 30px;
     line-height: 1.5em;
+    margin-top: 20px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main > section > article {
+    margin-top: 20px;
 }
 
 main > section#introduction > article#infobox > table {
@@ -64,6 +73,28 @@ main > section#introduction > article#infobox > table tr {
     border: 1px solid black;
 }
 
+main > section#introduction > article#infobox > table th, td {
+    padding: 5px;
+}
+
+main > section#introduction > article#infobox > table th {
+    text-align: left;
+}
+
+main > section#introduction > article#infobox > table th.title {
+    text-align: center;
+    background-color: #12571E;
+    color: white;
+}
+
 main > section#introduction > article#infobox > table > tbody > tr > td > img {
     width: 300px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#matthew-img {
+    height: 320px;
 }
