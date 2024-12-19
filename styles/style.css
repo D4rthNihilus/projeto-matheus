@@ -56,8 +56,9 @@ main p {
     margin-top: 20px;
 }
 
-main h2 {
+main > section h2 {
     text-align: center;
+    color: #006400;
 }
 
 main > section > article {
@@ -83,7 +84,7 @@ main > section#introduction > article#infobox > table th {
 
 main > section#introduction > article#infobox > table th.title {
     text-align: center;
-    background-color: #12571E;
+    background-color: #FE5900;
     color: white;
 }
 
