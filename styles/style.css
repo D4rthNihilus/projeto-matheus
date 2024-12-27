@@ -11,6 +11,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div.legend > p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
 header {
     background-color: darkgreen;
     color: white;
@@ -36,6 +41,19 @@ main {
     margin: 20px;
 }
 
+main > section > article h2 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color:#006400;
+    text-align: center;
+}
+
+main > section > article h3 {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
 main > div#title h1 {
     font-size: 1.5em;
     font-style: italic;
@@ -56,22 +74,17 @@ main p {
     margin-top: 20px;
 }
 
-main > section h2 {
-    text-align: center;
-    color: #006400;
-}
-
 main > section > article {
     margin-top: 20px;
 }
 
 main > section#introduction > article#infobox > table {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-collapse: collapse;
 }
 
 main > section#introduction > article#infobox > table tr {
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 main > section#introduction > article#infobox > table th, td {
@@ -98,4 +111,37 @@ main > section#introduction > article#infobox > table > tbody > tr > td > img {
 
 #matthew-img {
     height: 320px;
+}
+
+main > section > article, aside {
+    margin: 40px 0px;
+}
+
+main > section#introduction > article#theories > div.character-img {
+    margin: 20px 0px;
+}
+
+main > section > article > div.character-img > img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+main > section#development > article#meaning > aside > ul{
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+main > section#development > article#meaning > aside h4{
+    color: #D84204;
+}
+
+main > section#development > article#diffrence{
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+main > section#last-section > aside#seemore > table#articles img {
+    width: 150px;
+    border-radius: 10px;
 }
