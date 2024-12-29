@@ -159,3 +159,17 @@ main > section#last-section > aside#seemore > table#articles img {
     width: 150px;
     border-radius: 10px;
 }
+
+main > section#last-section > article#copyright {
+    margin: 20px;
+}
+
+main > section#last-section > article#copyright > h2 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main > section#last-section > article#copyright > hr {
+    margin-bottom: 10px;
+}
