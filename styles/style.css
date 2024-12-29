@@ -48,7 +48,7 @@ div#icones > div.icons {
 }
 
 div#icones > div#translate {
-    margin-right: 70%;
+    margin-right: 65%;
 }
 
 main > section > article h2 {
@@ -171,5 +171,5 @@ main > section#last-section > article#copyright > h2 {
 }
 
 main > section#last-section > article#copyright > hr {
-    margin-bottom: 10px;
+    margin: 10px -20px 10px -20px;
 }
