@@ -48,7 +48,7 @@ div#icones > div.icons {
 }
 
 div#icones > div#translate {
-    margin-right: 76%;
+    margin-right: 70%;
 }
 
 main > section > article h2 {
@@ -77,11 +77,15 @@ main > div#title h2 {
     margin-bottom: 15px;
 }
 
-main p {
+main > section > article > p {
     text-align: justify;
     text-indent: 30px;
     line-height: 1.5em;
     margin-top: 20px;
+}
+
+main > section > article > p#first {
+    margin-top: -20px;
 }
 
 main > section > article {
