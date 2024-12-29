@@ -41,6 +41,16 @@ main {
     margin: 20px;
 }
 
+div#icones > div.icons {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(73, 73, 73);
+}
+
+div#icones > div#translate {
+    margin-right: 76%;
+}
+
 main > section > article h2 {
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
