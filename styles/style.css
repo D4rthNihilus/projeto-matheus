@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "Alien";
-    src: url("../fonts/Alien\ Mine\ Italic.otf") format("opentype"), url("../fonts/Alien\ Mine\ Italic.ttf") format("truetype");
+    font-family: "Fun";
+    src: url("../fonts/Alien\ Mine.otf") format("opentype"), url("../fonts/Alien\ Mine.ttf") format("truetype");
 }
 
 * {
@@ -14,6 +14,7 @@
 div.legend > p {
     text-align: center;
     font-size: 0.8em;
+    margin: 5px
 }
 
 header {
@@ -28,7 +29,7 @@ header > div#menu-icon, h1, div#search-icon {
 
 header > h1 {
     margin-left: 20px;
-    font-family: "Alien", 'Times New Roman', Times, serif;
+    font-family: "Fun", 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 1.2em;
 }
@@ -132,7 +133,7 @@ main > section > article, aside {
 }
 
 main > section#introduction > article#theories > div.character-img {
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 main > section > article > div.character-img > img {
@@ -158,6 +159,7 @@ main > section#development > article#diffrence{
 main > section#last-section > aside#seemore > table#articles img {
     width: 150px;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.548);
 }
 
 main > section#last-section > article#copyright {
@@ -172,4 +174,14 @@ main > section#last-section > article#copyright > h2 {
 
 main > section#last-section > article#copyright > hr {
     margin: 10px -20px 10px -20px;
+}
+
+main > section#last-section > aside#seemore > hr {
+    margin-top: 150px;
+}
+
+footer > p {
+    text-align: justify;
+    margin: 20px;
+    font-size: 0.8em;
 }
