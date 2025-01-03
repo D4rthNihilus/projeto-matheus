@@ -32,6 +32,7 @@ header > h1 {
     font-family: "Fun", 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 1.2em;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507);
 }
 
 header > div#search-icon {
@@ -182,6 +183,10 @@ main > section#last-section > aside#seemore > table#articles img {
     width: 150px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.548);
+}
+
+main > section#last-section > aside#seemore > table#articles td,th {
+    padding: 10px 0px;
 }
 
 main > section#last-section > article#copyright {
